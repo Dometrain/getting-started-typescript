@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "erasableSyntaxOnly": false // When true, only allow erasable syntax. Setting to true forbids using syntax that can't be erased by the compiler like enums and decorators
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", // What module code to generate. NodeNext is recommended for modern Node.js. This also infers  "moduleResolution": "nodenext"
+    "target": "ES2024", // Override default (ES5) so we can use native modern JS features without needlessly transpiling them to support older JS
+    "moduleDetection": "force", // Force module detection to avoid issues with the demos since some don't export anything and would otherwise be treated as global scripts
+    "lib": ["ES2024", "DOM", "DOM.Iterable"], // What built-in types should be included. The latter two are needed for browser demos so window and document globals are recognized
+    "strict": true, // Enable all strict type-checking options
+    "noUnusedLocals": false, // Some demos don't use all values, so disabled. Set to true in real app.
+    "noUnusedParameters": false, // Error when a function parameter isn't read. Disabled so incomplete exercises don't error
+    "strictPropertyInitialization": true, // Assure class properties are initialized. Can toggle this for class module.
+    "noImplicitAny": false, // Set to true in real app. But some demos deliberately have any for examples, so don't enforce this
+    "outDir": "dist" // Write compiled JS to this directory
+  }
+}
