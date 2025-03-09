@@ -56,4 +56,4 @@ This assures greet is passed a class that can be instantiated.
 
 # Next up
 
-Great news, we're almost to the end of the course! In the last section, I share some suggested next steps including tips for working with tsconfig, how to convert JavaScript projects to TypeScript, and how to consume npm packages in TypeScript. I'll also share some TypeScript features to avoid and what to use instead.
+Great news, we're almost to the end of the course! In the last section, I'll share some suggested next steps including tips for working with tsconfig, how to convert JavaScript projects to TypeScript, how to consume npm packages, TypeScript features to avoid, and what I suggest you use instead.
