@@ -4,7 +4,7 @@
 //    If the input is a string, the function should return the string in uppercase.
 //    If the input is a number, the function should return the number as a string with a dollar sign prefix.
 
-// 2. Create a type alias `ID` that can be either a string or a number.
+// 2. Create a type alias `Id` that can be either a string or a number.
 
 // 3. Create a function `printId` that takes a parameter `id` of type `Id` and logs it to the console.
 
