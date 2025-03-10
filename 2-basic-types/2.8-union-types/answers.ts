@@ -12,7 +12,7 @@ function formatInput(input: string | number): string {
   }
 }
 
-// 2. Create a type alias `ID` that can be either a string or a number.
+// 2. Create a type alias `Id` that can be either a string or a number.
 
 type Id = string | number;
 
